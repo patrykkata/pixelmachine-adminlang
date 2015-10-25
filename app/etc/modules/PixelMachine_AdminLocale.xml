@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PixelMachine_AdminLocale>
+            <active>true</active>
+            <codePool>community</codePool>
+        </PixelMachine_AdminLocale>
+    </modules>
+</config>

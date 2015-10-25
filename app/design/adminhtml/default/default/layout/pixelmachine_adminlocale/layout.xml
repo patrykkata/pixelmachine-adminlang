@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_permissions_user_edit>
+        <reference name="adminhtml.permissions.user.edit.tabs">
+            <block type="pixelmachine_adminlocale/adminhtml_permissions_user_edit_tab_locale" name="adminhtml.permissions.user.edit.tab.locale"/>
+            <action method="addTabAfter">
+                <id>locale_section</id>
+                <block>adminhtml.permissions.user.edit.tab.locale</block>
+                <after>api2_roles_section</after>
+            </action>
+        </reference>
+    </adminhtml_permissions_user_edit>
+</layout>
